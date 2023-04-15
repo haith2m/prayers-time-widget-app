@@ -53,3 +53,4 @@ The app uses the following APIs for prayer time calculation and location selecti
 
 [Windows](https://github.com/haith2m/prayers-time-widget-app/releases/download/electronjs/Prayers.Time-win32-x64.zip)
 
+Extract ZIP file > Open Prayers Time.exe ✅
