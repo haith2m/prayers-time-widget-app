@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="bg-transparent">
+  <head>
+    <meta charset="UTF-8">
+    <title>prayers</title>
+    <link href="./styles.css" type="text/css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.5/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  </head>
+  <body class="bg-transparent">
+    <div id="app">
+      <div class="bg-[#fffdf6] rounded-3xl shadow-xl">
+        <button onclick="window.close();"class="text-3xl font-medium text-right p-2 text-[#D4AF37] btn-circle bg-transparent hover:bg-transparent">
+          <i class="bi bi-x"></i>  
+        </button>
+      <div class="flex flex-row justify-between text-[#D4AF37]">
+        <h1 id="date" class="p-4 text-left"></h1>
+        <button class="text-[#151000] btn btn-sm m-2 bg-transparent hover:bg-transparent border-[0.5px] border-[#D4AF37]" id="select_language"></button>
+      </div>
+      <div class="flex m-auto justify-center gap-16 text-[#151000]" id="prayers">
+      </div>
+      <div class="collapse transition-all">
+        <input type="checkbox" id="collapse_box"/>
+        <div class="collapse-title text-xl font-medium text-center text-[#D4AF37]">
+          <i class="bi bi-chevron-down"></i>  
+        </div>
+        <div class="collapse-content transition-all">
+          <div class="select-container flex place-items-center">
+            <span id="city" class="text-sm text-[#D4AF37]"></span><input list="suggestions" class="appearance-none transition-all outline-none bg-transparent m-4 p-2 border-[0.5px] border-[#D4AF37] text-[#836f2c] rounded-lg input-bordered w-full max-w-xs"id="city_input" type="text">
+            <datalist id="suggestions">
+            </datalist>
+            <span id="method" class="text-sm text-[#D4AF37]"></span><select class="select appearance-none transition-all outline-none bg-transparent m-4 p-2 border-[0.5px] border-[#D4AF37] text-[#836f2c] rounded-lg input-bordered " id="select_method">
+              <option disabled selected id="method_option"></option>
+            </select>
+          </div>
+              </div>
+      </div>      
+    </div>
+    </div>
+    <script src="renderer.js"></script>
+  </body>
+</html>

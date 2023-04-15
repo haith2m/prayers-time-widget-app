@@ -1,0 +1,21 @@
+{
+  "name": "prayers-time-app",
+  "version": "1.0.0",
+  "description": "An app to display daily prayers time",
+  "main": "main.js",
+  "productName": "Prayers Time",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . PrayersTime --overwrite --platform=<PLATFORM> --arch=<ARCHITECTURE> --icon=./app-icon.ico --prune=true --out=./dist"
+  },
+  "keywords": [
+    "prayers",
+    "time",
+    "app"
+  ],
+  "author": "Haitham",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^24.1.2"
+  }
+}
