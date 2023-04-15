@@ -31,3 +31,20 @@ The app supports various sources for prayer time calculation, including:
 ## Language Support
 
 The app supports both English and Arabic languages. You can switch between the two languages by clicking on the language switch button located on the app's interface.
+
+
+## Technologies Used
+
+The following technologies were used in the development of this app:
+
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Electron.Js
+
+## APIs Used
+
+The app uses the following APIs for prayer time calculation and location selection:
+
+![aladhan.com](https://aladhan.com/)
