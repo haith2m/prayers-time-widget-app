@@ -1,3 +1,5 @@
+![My Image](https://i.imgur.com/G8tpHUZ.png)
+
 # Prayer Time Widget App
 
 The Prayer Time Widget App is a convenient and user-friendly app that allows you to easily access prayer times for your selected location. You can choose your city and the source for prayer time calculation, and the app will display the accurate prayer times for you. The app supports both English and Arabic languages.
