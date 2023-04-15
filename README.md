@@ -47,4 +47,4 @@ The following technologies were used in the development of this app:
 
 The app uses the following APIs for prayer time calculation and location selection:
 
-![aladhan.com](https://aladhan.com/)
+[aladhan.com](https://aladhan.com/)
