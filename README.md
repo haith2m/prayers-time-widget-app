@@ -48,3 +48,8 @@ The following technologies were used in the development of this app:
 The app uses the following APIs for prayer time calculation and location selection:
 
 [aladhan.com](https://aladhan.com/)
+
+## Download
+
+[Windows](https://github.com/haith2m/prayers-time-widget-app/releases/download/electronjs/Prayers.Time-win32-x64.zip)
+
