@@ -61,4 +61,4 @@ Extract ZIP file > Open Prayers Time.exe ✅
 ![ArabicSettings](https://i.imgur.com/wCFPI5y.png)
 
 ![English](https://i.imgur.com/5oCPumM.png)
-![EnglishSettings]([https://i.imgur.com/wCFPI5y.png](https://i.imgur.com/7Qssxc1.png))
+![EnglishSettings](https://i.imgur.com/7Qssxc1.png)
